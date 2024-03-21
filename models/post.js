@@ -1,6 +1,6 @@
 const db = require("./banco")
 
-const Agendamentos = sequelize.define("agendamentos",{
+const Agendamentos = db.sequelize.define("agendamentos",{
     nome:{
         type: Sequelize.STRING
     },
